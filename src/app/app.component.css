@@ -1,0 +1,50 @@
+.rows {
+    border: 3px solid green;
+    padding: 5px;
+}
+.cols {
+    border: 3px solid red;
+}
+.container {
+    
+    
+}
+#topheader{
+    background-color:honeydew;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+#topheader a{
+    color:#95a5a6;
+    font-weight: 600;
+    font-size: 0.89rem
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* start; footer */
+.full-footer {
+    background-color:rgb(215, 220, 223); 
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.top-footer p{
+color:white;
+}
+.top-footer a{
+    color:rgb(255, 255, 255);
+    font-weight:600;
+    }
+    .top-footer h3{
+        color:rgb(105, 74, 74);
+    }
+    .bottom footer {
+        background-color:white;  
+    }
+    .bottom footer p{
+        background-color:rgb(255, 255, 255);  
+    }
+/*end; footer */
+
