@@ -9,6 +9,8 @@
     
     
 }
+
+/* start; header */
 #topheader{
     background-color:honeydew;
     border-bottom: 1px solid silver;
@@ -16,26 +18,33 @@
 }
 #topheader a{
     color:#95a5a6;
-    font-weight: 600;
-    font-size: 0.89rem
+    font-weight: 100;
+    font-size: 0.86rem;
+    height:10;
 }
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
 }
+/* end; header */
+
 /* start; footer */
+  
+
 .full-footer {
-    background-color:rgb(215, 220, 223); 
+    background-color:pink; 
     position: absolute;
-    bottom:0;
+    bottom:-2500;
     width:100%;
+    
+
 }
 .top-footer p{
 color:white;
 }
 .top-footer a{
     color:rgb(255, 255, 255);
-    font-weight:600;
+    font-weight:300;
     }
     .top-footer h3{
         color:rgb(105, 74, 74);
@@ -44,7 +53,65 @@ color:white;
         background-color:white;  
     }
     .bottom footer p{
-        background-color:rgb(255, 255, 255);  
+        background-color:rgb(206, 32, 154);  
     }
-/*end; footer */
+/* end; footer */
 
+/* start; home page first hero section */
+.top-hero-section {
+    background-color: #8E8CD8 ;
+    color: brown; 
+    
+}
+.top-hero-section a{
+    color: white;
+    font-weight: 600;
+}
+/* End; home page first hero section */
+
+
+/* start; home page 3rd hero section */
+
+.requirments-section {
+    background-color: #C30052;  
+    color: white;
+}
+
+/* end; home page 3rd hero section */
+
+/* start; home page 4rd hero section */
+
+.home-newsletter {
+    background-color: #00B7C3;  
+    color: white;
+}
+.home-newsletter .form-control {
+height: 50px;
+border-color: #8E8CD8;
+border-radius: 20px 0 0 20px;
+}
+.home-newsletter  .btn{
+   min-height: 50px;
+    border-radius: 20px 0 0 20px;
+    background: #4C4A48;  
+    color: rgb(255, 0, 140);
+    }
+/* end; home page 4rd hero section */
+
+
+/* start; home page 6thhero section */
+.home-sevices {
+    background: rgba(51, 10, 175, 0.856);  
+     color:white;
+}
+
+/* end; home page 6thhero section */
+
+
+
+/* start; home page 7th hero section */
+.clients-section {
+    background:rgb(168, 145, 109);  
+    color:white;
+}
+/* end; home page 7th hero section */
